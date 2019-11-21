@@ -19,3 +19,6 @@ jobs:
 
       - name: run tests
         run: "npm test"
+
+      - name: code coverage
+        run: "npm cov"
