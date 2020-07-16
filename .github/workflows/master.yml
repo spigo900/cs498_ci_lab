@@ -28,3 +28,6 @@ jobs:
 
       - name: code coverage
         run: "npm run cov"
+
+      - name: linting
+        run: "npm run lint"

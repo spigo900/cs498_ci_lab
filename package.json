@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/main/app.js",
     "test": "node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\"",
-    "cov": "nyc --check-coverage --functions 100 node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\""
+    "cov": "nyc --check-coverage --functions 100 node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\"",
+    "lint": "node ./node_modules/eslint/bin/eslint.js src"
   },
   "author": "",
   "license": "ISC",
