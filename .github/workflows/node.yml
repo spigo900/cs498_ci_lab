@@ -21,4 +21,4 @@ jobs:
         run: "npm test"
 
       - name: code coverage
-        run: "npm cov"
+        run: "npm run cov"
